@@ -13,14 +13,21 @@ I used open3d for visualization so that I can get a pointcloud file output. But 
 
 # TO-DO:
 Improve Visualization
+
 Improve the algorithm(Filters, Qtree, g2o, etc.)
+
 Visual BoW for Loop detection
 
 # Dependency
+
 OpenCV
+
 sk-image
+
 Open3d
+
 NumPy
+
 
 # Credits: This project was built upon those libraries
 
@@ -62,14 +69,17 @@ skImage:
 
 # Credits: I learned SLAM through those sources
 高翔《视觉SLAM十四讲》 https://github.com/MeisonP/slambook
+
 @Book{Gao2017SLAM, title={14 Lectures on Visual SLAM: From Theory to Practice}, publisher = {Publishing House of Electronics Industry}, year = {2017}, author = {Xiang Gao and Tao Zhang and Yi Liu and Qinrui Yan}, }
 
 # Credits: I directly looked into his implementations and also learned things through his implementaion, I also ran my code on his demo video
 Yang Yun, monocular SLAM
+
 https://github.com/YunYang1994/openwork/tree/main/monocular_slam
 https://yunyang1994.gitee.io/2020/12/19/%E7%94%A8-Python-%E6%89%8B%E6%92%B8%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E5%8D%95%E7%9B%AE-Slam-%E4%BE%8B%E5%AD%90/
 
 Monocular ORBSLAM2:
+
 @article{murTRO2015,
   title={{ORB-SLAM}: a Versatile and Accurate Monocular {SLAM} System},
   author={Mur-Artal, Ra\'ul, Montiel, J. M. M. and Tard\'os, Juan D.},
@@ -83,6 +93,7 @@ Monocular ORBSLAM2:
 
 # There are alternatives for you to learn SLAM
 I heard good things about **Multiple view geometry in computer vision**
+
 @Inbook{ref1,
 editor="Ikeuchi, Katsushi",
 title="Multiple View Geometry",
