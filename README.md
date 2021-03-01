@@ -11,7 +11,7 @@ I implemented and compared different feature extraction methods: Corners(CV2.Goo
 
 I used open3d for visualization so that I can get a pointcloud file output. But the visualization doesn't seem to be working well. 
 
-I did make functional changes to Yang's project, his project assumed that the camera will travel forward mostly linear(he implemented his own extract_RT method), while I utilized the OpenCV's function. I also added a clache augmentation option for better performance in low-light scenario. 
+I did make functional changes to Yang's project, his project assumed that the camera will travel forward mostly linear(he implemented his own extract_RT method), while I utilized the OpenCV's function. I also added a clache augmentation option for better performance in low-light scenario. Besides, his implementaion utilizes multi-threading, I adapted that because I found that Open3d had problems with threadings(it will interrupt the video-processing thread for some reason). 
 
 # TO-DO:
 Improve Visualization
